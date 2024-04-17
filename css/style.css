@@ -1,0 +1,29 @@
+body {
+    background-color: #696666;
+}
+ul li {
+    display: inline ;
+}
+header { 
+    font-weight: bold;
+    position: relative;
+    top: -2px;
+    border-block-end: 5px solid #4d4d4d;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: transform .6s ease;
+    display: inline-block;
+}
+a:hover{
+    color:black;
+    transform: scale(1.05)
+}
+
+.main{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    display: inline;
+} 
